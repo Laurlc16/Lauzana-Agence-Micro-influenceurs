@@ -1,0 +1,231 @@
+/* Set the background color of body to tan */
+body {
+  background-color: white;
+}
+
+.menu { 
+	height: 200px;
+	margin-top: 25px;
+	position: absolute;
+	top: 0; 
+}
+
+.bouton-menu {
+	background-color: transparent;
+	color: black;
+	border-style: hidden;
+	margin-left: 100px; 
+	margin-top: 15px;
+	height: 70px; 
+	width: 5%;
+}
+
+.menu-image {
+	max-width: 65px; 
+}
+
+ul.dropdown-menu {
+	width: 30%;
+	font-size: 30pt;
+	background-color: rgb(0 ,142, 142);
+	height: 800px;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.réseaux {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	size: 1px;
+	color: white;
+}
+
+.logo {
+	background-color: white;
+	}
+
+
+h1 {
+	color: rgb(0, 142, 142);
+}
+
+.carousel {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.d-block {
+	max-width: 100%;
+	height: 600px;
+}
+
+.carousel-caption {
+	background-color: white;
+	color: rgb(0, 142, 142);
+	padding: 0px;
+	border: outset;
+}
+
+.bienvenue {
+	font-size: 20pt;
+}
+
+.trait {
+	color: rgb(0, 142, 142);
+}
+
+.présentation {
+	width: 50%;
+	display: flex; 
+	align-items: center;
+}
+
+.influ {
+	font-size: 20pt;
+}
+
+a.btn.btn-lg.btn-primary.active {
+	background-color: #008E8E;
+	border-color: #008E8E;
+	font-size: 12pt;
+	transition-duration: 0.4s;
+}
+
+a.btn.btn-lg.btn-primary.active:hover {
+  background-color: white;
+  border-color: #008E8E;
+  color: #008E8E;
+}
+
+.influenceurs {
+	background-color: rgb(237, 237, 237);
+}
+
+.align {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
+.card {
+	width: 18rem;
+}
+
+.card:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.info {
+	display: flex;
+	align-items: center;
+}
+
+.text {
+	width: 50%;
+}
+
+.form-control {
+	width: 20%;
+}
+
+.sociaux {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	size: 4px; 
+	color: rgb(0, 142, 142);
+}
+
+.false-div {
+	display: none;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+
+  .carousel {
+  	display: none;
+  }
+
+  .false-div {
+  	display: block;
+  	height: 100px;
+  }
+
+  .bouton-menu {
+  	margin-left: 0;
+  }
+
+  .menu-image {
+	max-width: 45px; 
+	margin-bottom: 35px;
+	margin-top: 5px; 
+}
+
+ul.dropdown-menu {
+	width: 100%;
+	font-size: 20pt;
+	height: 800px;
+}
+
+.logotop {
+	max-width: 60%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.d-block {
+	max-width: 100%;
+	height: 200px;
+	margin-top: 85px;
+}
+
+ h1.bienvenue {
+ 	font-size: 10pt;
+ }
+
+ h2 {
+ 	font-size: 15pt;
+ }
+
+ .trait {
+ 	font-size: 7pt;
+ }
+
+ .présentation {
+ 	width: 80%;
+ 	font-size: 10pt;
+ }
+
+ a.btn.btn-lg.btn-primary.active {
+ 	font-size: 8pt;
+ }
+
+ .influ {
+ 	font-size: 10pt;
+ }
+
+ .align {
+ 	flex-direction: column;
+ }
+
+ .card {
+ 	display: flex;
+ 	width: 90%;
+ 	margin: 0 auto 10px auto;
+ }
+
+ .text {
+ 	width: 80%;
+ 	font-size: 10pt;
+ }
+
+}
